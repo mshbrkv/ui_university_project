@@ -1,0 +1,57 @@
+body {
+    background-color: #f7f7f7; /* Цвет фона страницы */
+    color: #333; /* Основной цвет текста */
+    font-family: Arial, sans-serif; /* Шрифт */
+    margin: 0; /* Убираем внешние отступы у body */
+    padding: 0; /* Убираем внутренние отступы у body */
+}
+
+h1 {
+    text-align: center;
+    color: #444; /* Цвет заголовка */
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Цвет фона формы */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Тень формы */
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #666; /* Цвет текста метки */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Цвет рамки полей ввода */
+    background-color: #f7f7f7; /* Цвет фона полей ввода */
+    color: #333; /* Цвет текста в полях ввода */
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007acc; /* Цвет фона кнопки отправки */
+    color: #fff; /* Цвет текста на кнопке */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Плавное изменение цвета при наведении */
+}
+
+input[type="submit"]:hover {
+    background-color: #00578b; /* Цвет фона кнопки отправки при наведении */
+}
